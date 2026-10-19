@@ -115,12 +115,14 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
   </tr>
 </table>
 
+<div align="center">
+
 | Parameter | Value | Parameter | Value |
 | :--- | :---: | :--- | :---: |
-| **Max Equivalent (von Mises) Stress** | 45.386 MPa | **Max Total Deformation** | 0.0228 mm |
-| **Minimum Static FoS** | 5.711 | **Fatigue Life** | $1 \times 10^8$ cycles |
-| **Minimum Fatigue FoS** | 2.3223 | — | — |
+| **Max Equivalent Stress** | 45.386 MPa | **Minimum Static FoS** | 5.711 |
+| **Fatigue Life** | $1 \times 10^8$ cycles | **Minimum Fatigue FoS** | 2.3223 |
 
+</div>
 ---
 
 ### (B) Lower A-Arm - Modal Analysis
