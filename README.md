@@ -2,7 +2,8 @@
 
 3D CAD model of a front double-wishbone suspension assembly (SolidWorks), with FEA of the **Lower A-Arm** and **Shock Absorber** in Ansys Workbench. Developed as personal project at MNNIT Allahabad.
 
-[![SolidWorks](https://img.shields.io/badge/CAD-SolidWorks%202025-red)](https://www.solidworks.com/)
+[![SolidWorks](![Static Badge](https://img.shields.io/badge/ansys?logo=ansys&logoColor=black&label=https%3A%2F%2Fshields.io%2Fdocs%2Flogos&labelColor=black&color=%23FFB71B)
+)](https://www.solidworks.com/)
 [![Ansys](https://img.shields.io/badge/FEA-Ansys%20Workbench-orange)](https://www.ansys.com/)
 [![Analysis](https://img.shields.io/badge/Analysis-Static-Structural%20%7C%20Fatigue%20%7C%20Modal-blue)](#results)
 
