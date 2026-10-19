@@ -200,16 +200,30 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ## Bill of Materials (BOM)
 
-| ITEM NO. | COMPONENT NAME | FILE TYPE | QTY. |
-| :---: | :--- | :--- | :---: |
-| 1 | Lower A-Arm | `.SLDPRT` | 1 |
-| 2 | Upper A-Arm | `.SLDPRT` | 1 |
-| 3 | Shock Absorber | `.SLDASM` | 1 |
-|   | Coil Spring | `.SLDPRT` | 1 |
-|   | Piston Rod | `.SLDPRT` | 1 |
-|   | Damper Body | `.SLDPRT` | 1 |
-| 4 | Assembly Fasteners & Hardware | Standard | As Req. |
+## Bill of Materials (BOM)
 
+| Item No. | Component Description / Part Name | Qty. |
+| :---: | :--- | :---: |
+| **1** | Front Side Plate R | 1 |
+| **2** | Front Side Plate L | 1 |
+| **3** | Front Upper Arm Mount | 1 |
+| **4** | Front Shock Brace | 1 |
+| **5** | Assembled Front Lower Arm (incl. Pillow Ball)[cite: 4, 5] | 2 |
+| **6** | Assembled Front Upper Arm (incl. Pillow Ball)[cite: 5] | 2 |
+| **7** | Front Lower Arm Brace | 1 |
+| **8** | Front Lower Hinge Pin | 2 |
+| **9** | Front Upper Hinge Pin | 2 |
+| **10** | E-Clip[cite: 6] | 8 |
+| **11** | Front Suspension Adjustment Clip[cite: 6] | 2 |
+| **12** | Shock Bushing[cite: 6] | 2 |
+| **13** | Assembled Shock Absorber (incl. Spring, Damper Body, Cartridge, O-Rings)[cite: 6, 7] | 2 |
+| **14** | Assembled Front Hub Carrier L (incl. Bearings, Axle, Ball Stud, Wheel, Tyre)[cite: 7, 8] | 1 |
+| **15** | Assembled Front Hub Carrier R (incl. Bearings, Axle, Ball Stud, Wheel, Tyre)[cite: 9, 10] | 1 |
+| **16** | ANSI B18.22.1 - M5-Narrow Washer[cite: 10] | 6 |
+| **17** | ISO-4035-M3-N Hex Nut[cite: 10] | 4 |
+| **18** | ISO 4762 - M3 × 20 Hex Socket Head Cap Screw[cite: 10] | 10 |
+
+> *Full detailed component breakdown and multi-level assembly spreadsheets are available in the [`BOM/`](./BOM/) directory.*
 ---
 
 ## Repository Structure
