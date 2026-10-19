@@ -114,7 +114,6 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
     </td>
   </tr>
 
-### (B) A-Arm - Modal Analysis 
 
 <table align="center">
   <!-- Row 1: A-Arm Model -->
@@ -152,6 +151,8 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
       <p><i>Total Deformation 06</i></p>
     </td>
   </tr>
+
+### (B) A-Arm - Modal Analysis 
 
 ### Lower A-Arm (10,000 N)
 
