@@ -225,10 +225,6 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ---
 
-## Bill of Materials (BOM)
-
-
-
 ## Repository Structure
 
 ```text
