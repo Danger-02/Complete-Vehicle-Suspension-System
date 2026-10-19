@@ -123,6 +123,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 | **Fatigue Life** | $1 \times 10^8$ cycles | **Minimum Fatigue FoS** | 2.3223 |
 
 </div>
+
 ---
 
 ### (B) Lower A-Arm - Modal Analysis
