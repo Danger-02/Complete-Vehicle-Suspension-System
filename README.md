@@ -5,6 +5,8 @@
 [![SolidWorks](https://img.shields.io/badge/SolidWorks-MODELLING-%23D2143A?style=for-the-badge&logo=dassaultsystemes&logoColor=white&labelColor=%23111111)](https://www.solidworks.com/)
 [![Ansys](https://img.shields.io/badge/-ANALYSIS-%23D2143A?style=for-the-badge&logo=ansys&logoColor=white&labelColor=%23111111&logoSize=auto)](https://www.ansys.com/)
 
+[![SolidWorks](https://img.shields.io/badge/SolidWorks-MODELLING-%23D2143A?style=for-the-badge&logo=dassaultsystemes&logoColor=white&labelColor=%23111111)](https://www.solidworks.com/)
+[![Ansys](https://img.shields.io/badge/-ANALYSIS-%23FFC20E?style=for-the-badge&logo=ansys&logoColor=black&labelColor=%23111111&logoSize=auto)](https://www.ansys.com/)
 
 ---
 
