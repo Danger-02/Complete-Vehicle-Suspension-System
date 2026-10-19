@@ -115,7 +115,7 @@ All natural frequencies are far above typical off-road excitation frequencies, s
   <!-- Row 1: Shock Absorber Results -->
   <tr>
     <td align="center" width="50%">
-      <img src="Analysis_Results/shock_absorber_von_mises_stress.png" alt="Shock absorber von Mises stress" width="100%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/01. A-Arm Model/01. A-Arm Model.png" alt="Shock absorber von Mises stress" width="100%">
       <p><i>Equivalent stress on the Shock Absorber (67.155 MPa max).</i></p>
     </td>
     <td align="center" width="50%">
