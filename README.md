@@ -4,7 +4,7 @@
 
 <p align="left">
   <!-- SolidWorks Custom Logo -->
-  <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/SolidWorks_Logo.svg" height="50" alt="SolidWorks" title="SolidWorks" /> 
+  <img src="https://en.wikipedia.org/wiki/File:SolidWorks_Logo.svg#/media/File:SolidWorks_Logo.svg" height="50" alt="SolidWorks" title="SolidWorks" /> 
 </p>
 ---
 
