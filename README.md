@@ -75,7 +75,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ## Results :
 
-### Shock Absorber - Static Structural Analysis : 
+### (A) Shock Absorber - Static Structural Analysis : 
 
 <table align="center">
   <!-- Row 1: A-Arm Model -->
