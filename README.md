@@ -26,7 +26,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 </div>
 
 <div align="center">
-  <img src="Renders/preview2.PNG" alt="Lower A-Arm Part" width="75%" height="80%"">
+  <img src="Renders/preview2.PNG" alt="Lower A-Arm Part" width="75%"">
   <p><i>Lower A-Arm (Control Arm).</i></p>
 </div>
 
