@@ -62,13 +62,13 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 | Load Basis | 4x dynamic multiplier on static corner weight, worst-case bump or jump landing | 4g - 5g impact with extra factor for combined braking and steering |
 
 <div align="center">
-  <img src="Analysis_Results/shock_absorber_supports_and_load.png" alt="Shock absorber boundary conditions" width="70%">
-  <p><i>Boundary conditions on the Shock Absorber.</i></p>
+  <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/01. Forces and Supports.png" width="70%">
+  <p><i>Boundary conditions on the Lower A-Arm.</i></p>
 </div>
 
 <div align="center">
   <img src="Analysis_Results/a_arm_supports_and_load.png" alt="A-Arm boundary conditions" width="70%">
-  <p><i>Boundary conditions on the Lower A-Arm.</i></p>
+  <p><i>Boundary conditions on the Shock Absorber.</i></p>
 </div>
 
 ---
