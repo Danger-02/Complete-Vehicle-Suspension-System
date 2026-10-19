@@ -115,13 +115,11 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
   </tr>
 </table>
 
-| Result | Value |
-| :--- | :---: |
-| **Max Equivalent (von Mises) Stress** | 45.386 MPa |
-| **Max Total Deformation** | 0.0228 mm |
-| **Minimum Static Factor of Safety** | 5.711 |
-| **Fatigue Life** | $1 \times 10^8$ cycles |
-| **Minimum Fatigue Factor of Safety** | 2.3223 |
+| Parameter | Value | Parameter | Value |
+| :--- | :---: | :--- | :---: |
+| **Max Equivalent (von Mises) Stress** | 45.386 MPa | **Max Total Deformation** | 0.0228 mm |
+| **Minimum Static FoS** | 5.711 | **Fatigue Life** | $1 \times 10^8$ cycles |
+| **Minimum Fatigue FoS** | 2.3223 | — | — |
 
 ---
 
