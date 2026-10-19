@@ -49,6 +49,11 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 | Piston rod, structural shafts | Low Alloy Steel 4140 (Hardened and Tempered) | 7850 | 205 | 0.29 | 655 |
 | Locking rings, collars | Carbon Steel 1095 (Hardened and Tempered) | 7850 | 200 | 0.29 | 525 |
 
+<div align="center">
+  <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/01. A-Arm Model/02. Material Selection.png" width="70%">
+  <p><i>Material Assignment on A-Arm.</i></p>
+</div>
+
 ---
 
 ## FEA Setup
