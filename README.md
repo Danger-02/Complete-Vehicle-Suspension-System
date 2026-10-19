@@ -162,15 +162,17 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
   </tr>
 </table>
 
-| Mode | Frequency (Hz) |
-| :---: | :---: |
-| 1 | 1,425.4 |
-| 2 | 1,650.2 |
-| 3 | 1,878.7 |
-| 4 | 2,043.8 |
-| 5 | 2,945.1 |
-| 6 | 3,420.5 |
-| 7 | 3,563.9 |
+<div align="center">
+
+| Mode | Frequency (Hz) | Mode | Frequence (Hz) |
+| :--- | :---: | :--- | :---: |
+| 1 | 1,425.4 | 2 | 1,650.2 |
+| 3 | 1,878.7 | 4 | 2,043.8 |
+| 5 | 2,945.1 | 6 | 3,420.5 |
+
+</div>
+
+
 
 > *Note: All natural frequencies are far above typical off-road excitation frequencies, so resonance is not a concern. Deformation values shown on mode shape plots are normalized and do not represent real physical displacement.*
 
