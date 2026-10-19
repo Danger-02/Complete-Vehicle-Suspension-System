@@ -1,6 +1,6 @@
 # Automobile Suspension System - Modelling and Analysis
 
-3D CAD model of a front double-wishbone suspension assembly (SolidWorks), with FEA of the **Lower A-Arm** and **Shock Absorber** in Ansys Workbench. Developed as a Mini Project (7th Semester) at MNNIT Allahabad.
+3D CAD model of a front double-wishbone suspension assembly (SolidWorks), with FEA of the **Lower A-Arm** and **Shock Absorber** in Ansys Workbench. Developed as personal project at MNNIT Allahabad.
 
 [![SolidWorks](https://img.shields.io/badge/CAD-SolidWorks%202025-red)](https://www.solidworks.com/)
 [![Ansys](https://img.shields.io/badge/FEA-Ansys%20Workbench-orange)](https://www.ansys.com/)
@@ -10,9 +10,7 @@
 
 ## Overview :
 
-This project covers the complete workflow from CAD to FEA for a vehicle suspension system. The full front **double-wishbone suspension** was modelled and assembled in SolidWorks. The two most heavily loaded parts, the **Lower A-Arm (control arm)** and the **Shock Absorber assembly**, were then taken into Ansys to check stress, deformation, factor of safety and fatigue life under peak off-road loads, and the A-Arm was also checked for natural frequencies (Modal).
-
-The design target is a **250 - 300 kg Baja SAE / ATV class vehicle**. Static corner weight is about 612 - 735 N, and 4g - 5g bump multipliers were used to set the peak design loads.
+This project covers the complete workflow from CAD to FEA for a vehicle suspension system. The complete vehicle suspension system was modelled and assembled in SolidWorks. The two most heavily loaded parts, the **Lower A-Arm (Control arm)** and the **Shock Absorber Assembly**, were then taken into Ansys to check stress, deformation, factor of safety and fatigue life under peak off-road loads, and the A-Arm was also checked for natural frequencies (Modal).
 
 ## Project Details :
 
