@@ -75,7 +75,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ## Results :
 
-### (A) A-Arm - Static Structural Analysis 
+### (A) A-Arm - Static Structural + Fatigue Analysis 
 
 <table align="center">
   <!-- Row 1: A-Arm Model -->
