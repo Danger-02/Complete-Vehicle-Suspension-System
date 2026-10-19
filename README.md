@@ -124,11 +124,11 @@ All natural frequencies are far above typical off-road excitation frequencies, s
     </td>
   </tr>
 
-  <!-- Row 2: Shock Absorber Results -->
+  <!-- Row 2: A-Arm : Static Structural and Fatigue Analysis -->
   <tr>
     <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/01. A-Arm Model/01. A-Arm Model.png" alt="Shock absorber von Mises stress" width="100%">
-      <p><i>Equivalent stress on the Shock Absorber (67.155 MPa max).</i></p>
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/01. Forces and Supports.png" alt="Shock absorber von Mises stress" width="100%">
+      <p><i>Equivalent stress on the Shock Absorber (47.507 MPa max).</i></p>
     </td>
     <td align="center" width="50%">
       <img src="Analysis_Results/shock_absorber_total_deformation.png" alt="Shock absorber total deformation" width="100%">
