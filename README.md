@@ -4,7 +4,8 @@
 
 [![SolidWorks](![Static Badge](https://img.shields.io/badge/ansys?logo=ansys&logoColor=black&label=https%3A%2F%2Fshields.io%2Fdocs%2Flogos&labelColor=black&color=%23FFB71B)
 )](https://www.solidworks.com/)
-[![Ansys](https://img.shields.io/badge/FEA-Ansys%20Workbench-orange)](https://www.ansys.com/)
+[![Ansys]([https://img.shields.io/badge/FEA-Ansys%20Workbench-orange](https://img.shields.io/badge/Workbench%2C%20Mechanical-black?style=flat&logo=ansys&logoColor=white&logoSize=auto&labelColor=black&color=black&cacheSeconds=3600
+))](https://www.ansys.com/)
 [![Analysis](https://img.shields.io/badge/Analysis-Static-Structural%20%7C%20Fatigue%20%7C%20Modal-blue)](#results)
 
 ---
