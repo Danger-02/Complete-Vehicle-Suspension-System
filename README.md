@@ -4,13 +4,11 @@
 
 
 <div align="center">
+
 <p>
-  <!-- SolidWorks (Using custom SVG/Shield fallback since simple-icons does not have a native SolidWorks badge) -->
-  <img src="https://img.shields.io/badge/SolidWorks-%23003B6F.svg?style=for-the-badge&logo=dassaultsystemes&logoColor=white" alt="SolidWorks" />
-  
-  <!-- Ansys -->
-  <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/ANSYS_logo.png" alt="Ansys Logo" width="120">
+  <img src="https://img.shields.io/badge/SolidWorks-%23003B6F.svg?style=for-the-badge&logo=dassaultsystemes&logoColor=white&scale=2" alt="SolidWorks" height="50" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Ansys-%23FFB71B.svg?style=for-the-badge&logo=ansys&logoColor=black&scale=2" alt="Ansys" height="50" />
 </p>
 
 </div>
