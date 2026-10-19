@@ -9,7 +9,7 @@
 
 <p align="left">
   <!-- SolidWorks Custom Logo -->
-  <img src="./assets/solidworks.png" height="40" alt="SolidWorks" title="SolidWorks" />
+  <img src="[./assets/solidworks.png](https://en.wikipedia.org/wiki/File:SolidWorks_Logo.svg#/media/File:SolidWorks_Logo.svg)" height="40" alt="SolidWorks" title="SolidWorks" />
   
   <!-- You can add other tech stack icons or badges next to it -->
 </p>
