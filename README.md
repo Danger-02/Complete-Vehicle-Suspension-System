@@ -124,6 +124,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 </div>
 
+> *Note: All peak stresses stay well below the yield strengths of the assigned materials, ensuring both components remain elastic under peak design loads.*
 ---
 
 ### (B) Lower A-Arm - Modal Analysis
