@@ -32,7 +32,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 <div align="center">
   <img src="Renders/preview3.PNG" alt="Shock Absorber Assembly" width="60%">
-  <p><i>Shock Absorber assembly (Assembled shock body, Shock spring adjustment nut, Suspension coil spring, Assembled shock strut).</i></p>
+  <p><i>Shock Absorber Assembly.</i></p>
 </div>
 
 ---
