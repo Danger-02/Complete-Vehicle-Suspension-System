@@ -4,27 +4,14 @@
 
 
 <div align="center">
-
-### 🛠️ Tech Stack & Tools
-
 <p>
   <!-- SolidWorks (Using custom SVG/Shield fallback since simple-icons does not have a native SolidWorks badge) -->
   <img src="https://img.shields.io/badge/SolidWorks-%23003B6F.svg?style=for-the-badge&logo=dassaultsystemes&logoColor=white" alt="SolidWorks" />
   
   <!-- Ansys -->
   <img src="https://img.shields.io/badge/Ansys-%23FFB71B.svg?style=for-the-badge&logo=ansys&logoColor=black" alt="Ansys" />
-  
-  <!-- Python -->
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  
-  <!-- OpenCV -->
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-  
-  <!-- NumPy -->
-  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-</p>
-
 </div>
+
 ---
 
 ## Overview :
