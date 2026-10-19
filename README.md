@@ -148,14 +148,6 @@ All natural frequencies are far above typical off-road excitation frequencies, s
     </td>
   </tr>
   
-  <!-- Row 3: A-Arm Modal Shape (Centered across both columns) -->
-  <tr>
-    <td align="center" colspan="2">
-      <img src="Analysis_Results/a_arm_modal_mode_1.png" alt="A-Arm modal shape 1" width="50%">
-      <p><i>Lower A-Arm Modal Shape 1 (1,425.4 Hz).</i></p>
-    </td>
-  </tr>
-</table>
 
 ## Conclusions :
 
