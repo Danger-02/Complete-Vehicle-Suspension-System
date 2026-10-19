@@ -131,8 +131,8 @@ All natural frequencies are far above typical off-road excitation frequencies, s
       <p><i>Equivalent stress on the Shock Absorber (47.507 MPa max).</i></p>
     </td>
     <td align="center" width="50%">
-      <img src="Analysis_Results/shock_absorber_total_deformation.png" alt="Shock absorber total deformation" width="100%">
-      <p><i>Total deformation on the Shock Absorber (7.0508 mm max).</i></p>
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/03. Total Deformation.png" width="100%">
+      <p><i>Total deformation on the Shock Absorber (0.022823 mm max).</i></p>
     </td>
   </tr>
   
