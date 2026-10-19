@@ -112,7 +112,19 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 All natural frequencies are far above typical off-road excitation frequencies, so resonance is not a concern. Deformation values shown on mode shape plots are relative (normalised) and do not represent real displacement.
 
 <table align="center">
-  <!-- Row 1: Shock Absorber Results -->
+  <!-- Row 1: A-Arm Model -->
+ <tr>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/01. A-Arm Model/02. Material Selection.png" width="100%">
+      <p><i>A-Arm Material Selection.</i></p>
+    </td>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/01. A-Arm Model/03. Meshing.png" width="100%">
+      <p><i>A-Arm Meshing.</i></p>
+    </td>
+  </tr>
+
+  <!-- Row 2: Shock Absorber Results -->
   <tr>
     <td align="center" width="50%">
       <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/01. A-Arm Model/01. A-Arm Model.png" alt="Shock absorber von Mises stress" width="100%">
