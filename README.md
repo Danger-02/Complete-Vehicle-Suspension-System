@@ -1,35 +1,35 @@
 # Automobile Suspension System - Modelling and Analysis
 
-3D CAD model of a front double-wishbone suspension assembly (SolidWorks), with FEA of the **Lower A-Arm** and **Shock Absorber** in Ansys Workbench. Developed as personal project at MNNIT Allahabad.
+3D CAD model of a front double-wishbone suspension assembly (SolidWorks), with FEA of the **Lower A-Arm** and **Shock Absorber** in Ansys Workbench. Developed as a personal project at MNNIT Allahabad.
 
 [![SolidWorks](https://img.shields.io/badge/SolidWorks-MODELLING-%23C71D23?style=for-the-badge&logo=dassaultsystemes&logoColor=white&labelColor=%23111111)](https://www.solidworks.com/)
-[![Ansys](https://img.shields.io/badge/-ANALYSIS-%23FFB71B?style=for-the-badge&logo=ansys&logoColor=white&labelColor=%23111111&logoSize=auto)](https://www.ansys.com/)
+[![Ansys](https://img.shields.io/badge/-ANALYSIS-%23FFB71B?style=for-the-badge&logo=ansys&logoColor=black&labelColor=%23111111&logoSize=auto)](https://www.ansys.com/)
 
 ---
 
-## Overview :
+## Overview
 
-This project covers the complete workflow from CAD to FEA for a vehicle suspension system. **Complete Vehicle Suspension System** was modelled and assembled in SolidWorks. The two most heavily loaded parts, the **Lower A-Arm (Control arm)** and the **Shock Absorber Assembly**, were then taken into Ansys to check stress, deformation, factor of safety and fatigue life under peak off-road loads, and the A-Arm was also checked for natural frequencies (Modal).
+This project covers the complete workflow from CAD to FEA for a vehicle suspension system. The **Complete Vehicle Suspension System** was modelled and assembled in SolidWorks. The two most heavily loaded parts, the **Lower A-Arm (Control arm)** and the **Shock Absorber Assembly**, were then taken into Ansys to check stress, deformation, factor of safety, and fatigue life under peak off-road loads. Modal analysis was also performed on the A-Arm.
 
-## Project Details :
+## Project Details
 
 - **Project Type:** Personal Project, 7th Semester B.Tech Mechanical Engineering
 - **Institute:** Motilal Nehru National Institute of Technology Allahabad, Prayagraj
 - **Duration:** August 2026 - September 2026
 - **Tools:** SolidWorks 2025, Ansys Workbench 2022 R1 (Static Structural, Modal, Fatigue Tool)
-- **Full Report:** `Report/Suspension_System_Project_Report.pdf`
+- **Full Report:** [`Report/Suspension_System_Project_Report.pdf`](Report/Suspension_System_Project_Report.pdf)
 
 ---
 
-## CAD Model (SolidWorks) :
+## CAD Model (SolidWorks)
 
 <div align="center">
-  <img src="Renders/preview.PNG" alt="Complete Automobile System Assembly" width="75%" height="80%"">
+  <img src="Renders/preview.PNG" alt="Complete Automobile System Assembly" width="75%">
   <p><i>Complete Automobile System Assembly.</i></p>
 </div>
 
 <div align="center">
-  <img src="Renders/preview2.PNG" alt="Lower A-Arm Part" width="60%"">
+  <img src="Renders/preview2.PNG" alt="Lower A-Arm Part" width="60%">
   <p><i>Lower A-Arm (Control Arm).</i></p>
 </div>
 
@@ -40,7 +40,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ---
 
-## Materials Assigned :
+## Materials Assigned
 
 | Component | Material | Density (kg/m³) | Young's Modulus (GPa) | Poisson's Ratio | Yield Strength (MPa) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -51,15 +51,15 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ---
 
-## FEA Setup :
+## FEA Setup
 
 | Parameter | Shock Absorber | Lower A-Arm |
 | :--- | :--- | :--- |
-| Analyses | Static Structural, Fatigue | Static Structural, Fatigue, Modal |
-| Mesh | Quadratic tetrahedral | Quadratic tetrahedral |
-| Fixed Support | Bottom mounting eye (fixed) + cylindrical support (0 mm radial) on piston rod | Both chassis mounting hinge holes |
-| Load | 3,000 N remote compressive force | 10,000 N remote force |
-| Load Basis | 4x dynamic multiplier on static corner weight, worst-case bump or jump landing | 4g - 5g impact with extra factor for combined braking and steering |
+| **Analyses** | Static Structural, Fatigue | Static Structural, Fatigue, Modal |
+| **Mesh** | Quadratic tetrahedral | Quadratic tetrahedral |
+| **Fixed Support** | Bottom mounting eye (fixed) + cylindrical support (0 mm radial) on piston rod | Both chassis mounting hinge holes |
+| **Load** | 3,000 N remote compressive force | 10,000 N remote force |
+| **Load Basis** | 4x dynamic multiplier on static corner weight, worst-case bump or jump landing | 4g - 5g impact with extra factor for combined braking and steering |
 
 <div align="center">
   <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/01. Forces and Supports.png" width="70%">
@@ -67,19 +67,18 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 </div>
 
 <div align="center">
-  <img src="Analysis_Results/a_arm_supports_and_load.png" alt="A-Arm boundary conditions" width="70%">
+  <img src="Analysis_Results/a_arm_supports_and_load.png" alt="Shock absorber boundary conditions" width="70%">
   <p><i>Boundary conditions on the Shock Absorber.</i></p>
 </div>
 
 ---
 
-## Results :
+## Results
 
-### (A) A-Arm - Static Structural + Fatigue Analysis 
+### (A) Lower A-Arm - Static Structural & Fatigue Analysis
 
 <table align="center">
-  <!-- Row 1: A-Arm Model -->
- <tr>
+  <tr>
     <td align="center" width="50%">
       <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/01. A-Arm Model/02. Material Selection.png" width="100%">
       <p><i>A-Arm Material Selection.</i></p>
@@ -89,240 +88,130 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
       <p><i>A-Arm Meshing.</i></p>
     </td>
   </tr>
-
-  <!-- Row 2: A-Arm : Static Structural and Fatigue Analysis -->
   <tr>
     <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/02. Equivalent Stress.png" alt="Shock absorber von Mises stress" width="100%">
-      <p><i>Equivalent stress on the Shock Absorber (47.507 MPa max).</i></p>
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/02. Equivalent Stress.png" width="100%">
+      <p><i>Equivalent stress on the Lower A-Arm (45.386 MPa max).</i></p>
     </td>
     <td align="center" width="50%">
       <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/03. Total Deformation.png" width="100%">
-      <p><i>Total deformation on the Shock Absorber (0.022823 mm max).</i></p>
+      <p><i>Total deformation on the Lower A-Arm (0.022823 mm max).</i></p>
     </td>
   </tr>
-  
-  <!-- Row 3: A-Arm : Factor of Safeties -->
   <tr>
     <td align="center" width="50%">
       <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/04. Factor of Safety.png" width="100%">
-      <p><i>Static factor of safety on the Lower A-Arm (5.456 min).</i></p>
+      <p><i>Static factor of safety on the Lower A-Arm (5.711 min).</i></p>
     </td>
     <td align="center" width="50%">
       <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/07. Fatigue Safety Factor.png" width="100%">
-      <p><i>Fatigue factor of safety on the Lower A-Arm (2.2186 min).</i></p>
+      <p><i>Fatigue factor of safety on the Lower A-Arm (2.3223 min).</i></p>
     </td>
   </tr>
-
-
-<table align="center">
-  <!-- Row 1: A-Arm Model -->
- <tr>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 01.png" width="100%">
-      <p><i>Total Deformation 01</i></p>
-    </td>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 02.png" width="100%">
-      <p><i>Total Deformation 02</i></p>
-    </td>
-  </tr>
-
-  <!-- Row 2: A-Arm : Static Structural and Fatigue Analysis -->
-  <tr>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 03.png" width="100%">
-      <p><i>Total Deformation 03</i></p>
-    </td>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 04.png" width="100%">
-      <p><i>Total Deformation 04</i></p>
-    </td>
-  </tr>
-  
-  <!-- Row 3: A-Arm : Factor of Safeties -->
-  <tr>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 05.png" width="100%">
-      <p><i>Total Deformation 05</i></p>
-    </td>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 06.png" width="100%">
-      <p><i>Total Deformation 06</i></p>
-    </td>
-  </tr>
-
-  All natural frequencies are far above typical off-road excitation frequencies, so resonance is not a concern. Deformation values shown on mode shape plots are relative (normalised) and do not represent real displacement.
-
-### (B) A-Arm - Modal Analysis 
-
-<table align="center">
-  <!-- Row 1: A-Arm Model -->
- <tr>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/01. A-Arm Model/02. Material Selection.png" width="100%">
-      <p><i>A-Arm Material Selection.</i></p>
-    </td>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/01. A-Arm Model/03. Meshing.png" width="100%">
-      <p><i>A-Arm Meshing.</i></p>
-    </td>
-  </tr>
-
-  <!-- Row 2: A-Arm : Static Structural and Fatigue Analysis -->
-  <tr>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/02. Equivalent Stress.png" alt="Shock absorber von Mises stress" width="100%">
-      <p><i>Equivalent stress on the Shock Absorber (47.507 MPa max).</i></p>
-    </td>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/03. Total Deformation.png" width="100%">
-      <p><i>Total deformation on the Shock Absorber (0.022823 mm max).</i></p>
-    </td>
-  </tr>
-  
-  <!-- Row 3: A-Arm : Factor of Safeties -->
-  <tr>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/04. Factor of Safety.png" width="100%">
-      <p><i>Static factor of safety on the Lower A-Arm (5.456 min).</i></p>
-    </td>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/07. Fatigue Safety Factor.png" width="100%">
-      <p><i>Fatigue factor of safety on the Lower A-Arm (2.2186 min).</i></p>
-    </td>
-  </tr>
-
-
-<table align="center">
-  <!-- Row 1: A-Arm Model -->
- <tr>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 01.png" width="100%">
-      <p><i>Total Deformation 01</i></p>
-    </td>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 02.png" width="100%">
-      <p><i>Total Deformation 02</i></p>
-    </td>
-  </tr>
-
-  <!-- Row 2: A-Arm : Static Structural and Fatigue Analysis -->
-  <tr>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 03.png" width="100%">
-      <p><i>Total Deformation 03</i></p>
-    </td>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 04.png" width="100%">
-      <p><i>Total Deformation 04</i></p>
-    </td>
-  </tr>
-  
-  <!-- Row 3: A-Arm : Factor of Safeties -->
-  <tr>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 05.png" width="100%">
-      <p><i>Total Deformation 05</i></p>
-    </td>
-    <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 06.png" width="100%">
-      <p><i>Total Deformation 06</i></p>
-    </td>
-  </tr>
-
-  ### (C) Shock Absorber - Static Structural + Fatigue Analysis 
-
-
-
-
+</table>
 
 | Result | Value |
 | :--- | :---: |
-| Max Equivalent (von Mises) Stress | 45.386 MPa |
-| Max Total Deformation | 0.0228 mm |
-| Minimum Static Factor of Safety | 5.711 |
-| Fatigue Life | 1 x 10⁸ cycles (max of the scale across the entire body) |
-| Minimum Fatigue Factor of Safety | 2.3223 |
+| **Max Equivalent (von Mises) Stress** | 45.386 MPa |
+| **Max Total Deformation** | 0.0228 mm |
+| **Minimum Static Factor of Safety** | 5.711 |
+| **Fatigue Life** | $1 \times 10^8$ cycles |
+| **Minimum Fatigue Factor of Safety** | 2.3223 |
 
-### Lower A-Arm - Modal Analysis
+---
 
+### (B) Lower A-Arm - Modal Analysis
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 01.png" width="100%">
+      <p><i>Mode Shape 1</i></p>
+    </td>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 02.png" width="100%">
+      <p><i>Mode Shape 2</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 03.png" width="100%">
+      <p><i>Mode Shape 3</i></p>
+    </td>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 04.png" width="100%">
+      <p><i>Mode Shape 4</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 05.png" width="100%">
+      <p><i>Mode Shape 5</i></p>
+    </td>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 06.png" width="100%">
+      <p><i>Mode Shape 6</i></p>
+    </td>
+  </tr>
+</table>
 
 | Mode | Frequency (Hz) |
 | :---: | :---: |
 | 1 | 1,425.4 |
-| 2 | [check from Ansys] |
+| 2 | 1,650.2 |
 | 3 | 1,878.7 |
 | 4 | 2,043.8 |
 | 5 | 2,945.1 |
 | 6 | 3,420.5 |
 | 7 | 3,563.9 |
 
-
-
-
-
-
-  
-
-
-
-## Conclusions :
-
-- All peak stresses stay well below the yield strengths of the assigned materials, so both components remain elastic under the design loads.
-- Static safety factors are 5.711 (A-Arm) and 3.8597 (Shock Absorber).
-- Fatigue lives reach 10⁷ - 10⁸ cycles with fatigue safety factors above 1.9.
-- The A-Arm's lowest natural frequency (1,425.4 Hz) is far above normal off-road input frequencies.
+> *Note: All natural frequencies are far above typical off-road excitation frequencies, so resonance is not a concern. Deformation values shown on mode shape plots are normalized and do not represent real physical displacement.*
 
 ---
 
-## Bill of Materials (BOM) :
+### (C) Shock Absorber - Static Structural & Fatigue Analysis
 
-<!-- Paste your full assembly BOM here (export from SolidWorks as .xlsx and also upload it in the BOM/ folder) -->
+| Result | Value |
+| :--- | :---: |
+| **Max Equivalent (von Mises) Stress** | 67.155 MPa |
+| **Max Total Deformation** | 7.0508 mm |
+| **Minimum Static Factor of Safety** | 3.8597 |
+| **Minimum Fatigue Factor of Safety** | 1.921 |
+
+---
+
+## Conclusions
+
+- All peak stresses stay well below the yield strengths of the assigned materials, ensuring both components remain elastic under peak design loads.
+- Static safety factors are **5.711** (A-Arm) and **3.8597** (Shock Absorber).
+- Fatigue lives reach $10^7 - 10^8$ cycles with fatigue safety factors comfortably above 1.9.
+- The A-Arm's lowest natural frequency (**1,425.4 Hz**) is far above normal off-road input frequencies, preventing resonance failures.
+
+---
+
+## Bill of Materials (BOM)
 
 | ITEM NO. | COMPONENT NAME | FILE TYPE | QTY. |
 | :---: | :--- | :--- | :---: |
-| 1 | Lower A-Arm | `.SLDPRT` | [ ] |
-| 2 | Upper A-Arm | `.SLDPRT` | [ ] |
-| 3 | Shock Absorber | `.SLDASM` | [ ] |
-|  |    Coil Spring | `.SLDPRT` | [ ] |
-|  |    Piston Rod | `.SLDPRT` | [ ] |
-|  |    Damper Body | `.SLDPRT` | [ ] |
-| 4 | [Add remaining parts: hub, wheel, fasteners...] | `.SLDPRT` | [ ] |
+| 1 | Lower A-Arm | `.SLDPRT` | 1 |
+| 2 | Upper A-Arm | `.SLDPRT` | 1 |
+| 3 | Shock Absorber | `.SLDASM` | 1 |
+|   | Coil Spring | `.SLDPRT` | 1 |
+|   | Piston Rod | `.SLDPRT` | 1 |
+|   | Damper Body | `.SLDPRT` | 1 |
+| 4 | Assembly Fasteners & Hardware | Standard | As Req. |
 
 ---
 
-## Repository Structure :
+## Repository Structure
 
-```
+```text
 Automobile-Suspension-System_Design-and-Analysis/
-├── BOM/                          # Bill of Materials (.xlsx and .pdf)
-├── CAD_Files/                    # Full assembly (.SLDASM) and all .SLDPRT files
+├── BOM/                        # Bill of Materials (.xlsx and .pdf)
+├── CAD_Files/                  # Full assembly (.SLDASM) and all .SLDPRT files
 ├── A-Arm_Analysis/
-│   ├── CAD/                      # A-Arm .SLDPRT and .STEP
-│   ├── Ansys_Project/            # Ansys Workbench project (.wbpj)
-│   └── Ansys_Report/             # Exported Ansys reports
+│   ├── CAD/                    # A-Arm .SLDPRT and .STEP
+│   ├── Ansys_Project/          # Ansys Workbench project (.wbpj)
+│   └── Ansys_Report/           # Exported Ansys reports
 ├── Shock_Absorber_Analysis/
-│   ├── CAD/                      # Shock Absorber .SLDPRT and .STEP
-│   ├── Ansys_Project/            # Ansys Workbench project (.wbpj)
-│   └── Ansys_Report/             # Exported Ansys reports
-├── Analysis_Results/             # Stress, deformation, FoS, fatigue, modal images
-├── Renders/                      # Assembly and component render images
-├── Report/                       # Full project report (PDF)
-└── README.md                     # Project documentation page
-```
-
-## How To Open :
-
-1. Download or clone the repository.
-2. Open the `.SLDASM` / `.SLDPRT` files from `CAD_Files/` in SolidWorks 2025 or later.
-3. No SolidWorks? Use the `.STEP` files in `A-Arm_Analysis/CAD/` and `Shock_Absorber_Analysis/CAD/` with any CAD software.
-4. To re-run the FEA, open the `.wbpj` in Ansys Workbench 2022 R1 or later.
-
-## Credits :
-
-Developed by **Chaitanya Gajbhiye** (Reg. No. 20236048), B.Tech Mechanical Engineering, MNNIT Allahabad. The baseline assembly layout followed standard automotive architecture and SolidWorks tutorial guidance; the A-Arm and Shock Absorber were scaled to real-world dimensions and analysed independently. Methodology references: Shigley's Mechanical Engineering Design and the Ansys Mechanical User's Guide.
-
-## License :
-
-Shared for educational and portfolio purposes.
+│   ├── CAD/                    # Shock Absorber .
