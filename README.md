@@ -115,6 +115,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
   </tr>
 
 ### (B) A-Arm - Modal Analysis 
+
 <table align="center">
   <!-- Row 1: A-Arm Model -->
  <tr>
