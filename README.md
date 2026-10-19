@@ -8,7 +8,7 @@
 
 ## Overview :
 
-This project covers the complete workflow from CAD to FEA for a vehicle suspension system. The complete vehicle suspension system was modelled and assembled in SolidWorks. The two most heavily loaded parts, the **Lower A-Arm (Control arm)** and the **Shock Absorber Assembly**, were then taken into Ansys to check stress, deformation, factor of safety and fatigue life under peak off-road loads, and the A-Arm was also checked for natural frequencies (Modal).
+This project covers the complete workflow from CAD to FEA for a vehicle suspension system. **Complete Vehicle Suspension System** was modelled and assembled in SolidWorks. The two most heavily loaded parts, the **Lower A-Arm (Control arm)** and the **Shock Absorber Assembly**, were then taken into Ansys to check stress, deformation, factor of safety and fatigue life under peak off-road loads, and the A-Arm was also checked for natural frequencies (Modal).
 
 ## Project Details :
 
