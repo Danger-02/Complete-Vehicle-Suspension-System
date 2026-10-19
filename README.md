@@ -27,8 +27,8 @@ The design target is a **250 - 300 kg Baja SAE / ATV class vehicle**. Static cor
 ## CAD Model (SolidWorks) :
 
 <div align="center">
-  <img src="Renders/preview.PNG" alt="Complete Automobile Suspension Assembly" width="75%">
-  <p><i>Complete Automobile Suspension Assembly.</i></p>
+  <img src="Renders/preview.PNG" alt="Complete Automobile System Assembly" width="75%">
+  <p><i>Complete Automobile System Assembly.</i></p>
 </div>
 
 <div align="center">
