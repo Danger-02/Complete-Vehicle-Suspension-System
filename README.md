@@ -4,7 +4,7 @@
 
 [![SolidWorks](https://img.shields.io/badge/CAD-SolidWorks%202025-red)](https://www.solidworks.com/)
 [![Ansys](https://img.shields.io/badge/FEA-Ansys%20Workbench-orange)](https://www.ansys.com/)
-[![Analysis](https://img.shields.io/badge/Analysis-Static%20%7C%20Fatigue%20%7C%20Modal-blue)](#results)
+[![Analysis](https://img.shields.io/badge/Analysis-Static-Structural%20%7C%20Fatigue%20%7C%20Modal-blue)](#results)
 
 ---
 
