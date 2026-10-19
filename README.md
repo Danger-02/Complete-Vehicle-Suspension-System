@@ -25,12 +25,12 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 ## CAD Model (SolidWorks) :
 
 <div align="center">
-  <img src="Renders/preview.PNG" alt="Complete Automobile System Assembly" width="75%">
+  <img src="Renders/preview.PNG" alt="Complete Automobile System Assembly" width="75%" height="80%"">
   <p><i>Complete Automobile System Assembly.</i></p>
 </div>
 
 <div align="center">
-  <img src="Renders/preview2.PNG" alt="Lower A-Arm Part" width="75%">
+  <img src="Renders/preview2.PNG" alt="Lower A-Arm Part" width="75%" height="80%"">
   <p><i>Lower A-Arm (Control Arm).</i></p>
 </div>
 
