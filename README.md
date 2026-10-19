@@ -75,41 +75,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ## Results :
 
-### Shock Absorber (3,000 N)
-
-| Result | Value |
-| :--- | :---: |
-| Max Equivalent (von Mises) Stress | 67.155 MPa |
-| Max Equivalent Elastic Strain | 0.1066 mm/mm |
-| Max Total Deformation | 7.0508 mm |
-| Minimum Static Factor of Safety | 3.8597 |
-| Max Fatigue Damage Index | 0.1 |
-| Fatigue Life | 1 x 10⁷ cycles (minimum) |
-| Minimum Fatigue Factor of Safety | 1.9908 |
-
-### Lower A-Arm (10,000 N)
-
-| Result | Value |
-| :--- | :---: |
-| Max Equivalent (von Mises) Stress | 45.386 MPa |
-| Max Total Deformation | 0.0228 mm |
-| Minimum Static Factor of Safety | 5.711 |
-| Fatigue Life | 1 x 10⁸ cycles (max of the scale across the entire body) |
-| Minimum Fatigue Factor of Safety | 2.3223 |
-
-### Lower A-Arm - Modal Analysis
-
-| Mode | Frequency (Hz) |
-| :---: | :---: |
-| 1 | 1,425.4 |
-| 2 | [check from Ansys] |
-| 3 | 1,878.7 |
-| 4 | 2,043.8 |
-| 5 | 2,945.1 |
-| 6 | 3,420.5 |
-| 7 | 3,563.9 |
-
-All natural frequencies are far above typical off-road excitation frequencies, so resonance is not a concern. Deformation values shown on mode shape plots are relative (normalised) and do not represent real displacement.
+### Shock Absorber - Static Structural Analysis : 
 
 <table align="center">
   <!-- Row 1: A-Arm Model -->
@@ -148,6 +114,42 @@ All natural frequencies are far above typical off-road excitation frequencies, s
     </td>
   </tr>
   
+
+| Result | Value |
+| :--- | :---: |
+| Max Equivalent (von Mises) Stress | 67.155 MPa |
+| Max Equivalent Elastic Strain | 0.1066 mm/mm |
+| Max Total Deformation | 7.0508 mm |
+| Minimum Static Factor of Safety | 3.8597 |
+| Max Fatigue Damage Index | 0.1 |
+| Fatigue Life | 1 x 10⁷ cycles (minimum) |
+| Minimum Fatigue Factor of Safety | 1.9908 |
+
+### Lower A-Arm (10,000 N)
+
+| Result | Value |
+| :--- | :---: |
+| Max Equivalent (von Mises) Stress | 45.386 MPa |
+| Max Total Deformation | 0.0228 mm |
+| Minimum Static Factor of Safety | 5.711 |
+| Fatigue Life | 1 x 10⁸ cycles (max of the scale across the entire body) |
+| Minimum Fatigue Factor of Safety | 2.3223 |
+
+### Lower A-Arm - Modal Analysis
+
+| Mode | Frequency (Hz) |
+| :---: | :---: |
+| 1 | 1,425.4 |
+| 2 | [check from Ansys] |
+| 3 | 1,878.7 |
+| 4 | 2,043.8 |
+| 5 | 2,945.1 |
+| 6 | 3,420.5 |
+| 7 | 3,563.9 |
+
+All natural frequencies are far above typical off-road excitation frequencies, so resonance is not a concern. Deformation values shown on mode shape plots are relative (normalised) and do not represent real displacement.
+
+
 
 <table align="center">
   <!-- Row 1: A-Arm Model -->
