@@ -154,7 +154,11 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ### (B) A-Arm - Modal Analysis 
 
-### Lower A-Arm (10,000 N)
+
+
+
+
+
 
 | Result | Value |
 | :--- | :---: |
@@ -165,6 +169,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 | Minimum Fatigue Factor of Safety | 2.3223 |
 
 ### Lower A-Arm - Modal Analysis
+
 
 | Mode | Frequency (Hz) |
 | :---: | :---: |
