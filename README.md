@@ -2,13 +2,19 @@
 
 3D CAD model of a front double-wishbone suspension assembly (SolidWorks), with FEA of the **Lower A-Arm** and **Shock Absorber** in Ansys Workbench. Developed as personal project at MNNIT Allahabad.
 
-[![SolidWorks](https://img.shields.io/badge/SolidWorks-white?style=flat&logo=dassaultsystemes&logoColor=white&logoSize=auto&labelColor=%23EE0000&color=%23EE0000&cacheSeconds=3600)](https://www.solidworks.com/)
-[![Ansys](https://img.shields.io/badge/Workbench-black?style=flat&logo=ansys&logoColor=white&logoSize=auto&labelColor=black&color=black&cacheSeconds=3600)
-](https://ansys.synopsys.com/en-in)
-[![Github](https://img.shields.io/badge/Github-black?style=flat&logo=github&logoColor=white&logoSize=auto&labelColor=black&color=black&cacheSeconds=3600)
-](https://github.com/)
+<div align="center">
 
+### 🛠️ Tech Stack & Tools
 
+<p>
+  <img src="https://img.shields.io/badge/SolidWorks-E10098?style=for-the-badge&logo=solidworks&logoColor=white" alt="SolidWorks" />
+  <img src="https://img.shields.io/badge/Ansys-FFB71B?style=for-the-badge&logo=ansys&logoColor=black" alt="Ansys" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+</p>
+
+</div>
 
 ---
 
