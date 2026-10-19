@@ -152,6 +152,8 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
     </td>
   </tr>
 
+  All natural frequencies are far above typical off-road excitation frequencies, so resonance is not a concern. Deformation values shown on mode shape plots are relative (normalised) and do not represent real displacement.
+
 ### (B) A-Arm - Modal Analysis 
 
 <table align="center">
@@ -256,7 +258,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 | 6 | 3,420.5 |
 | 7 | 3,563.9 |
 
-All natural frequencies are far above typical off-road excitation frequencies, so resonance is not a concern. Deformation values shown on mode shape plots are relative (normalised) and do not represent real displacement.
+
 
 
 
