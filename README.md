@@ -136,15 +136,15 @@ All natural frequencies are far above typical off-road excitation frequencies, s
     </td>
   </tr>
   
-  <!-- Row 2: A-Arm Stress & Factor of Safety -->
+  <!-- Row 3: A-Arm : Factor of Safeties -->
   <tr>
     <td align="center" width="50%">
-      <img src="Analysis_Results/a_arm_von_mises_stress.png" alt="A-Arm von Mises stress" width="100%">
-      <p><i>Equivalent stress on the Lower A-Arm (45.386 MPa max, near the inner hinge and neck).</i></p>
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/04. Factor of Safety.png" width="100%">
+      <p><i>Static factor of safety on the Lower A-Arm (5.456 min).</i></p>
     </td>
     <td align="center" width="50%">
-      <img src="Analysis_Results/a_arm_factor_of_safety.png" alt="A-Arm factor of safety" width="100%">
-      <p><i>Static factor of safety on the Lower A-Arm (5.711 min).</i></p>
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/07. Fatigue Safety Factor.png" width="100%">
+      <p><i>Fatigue factor of safety on the Lower A-Arm (2.2186 min).</i></p>
     </td>
   </tr>
   
