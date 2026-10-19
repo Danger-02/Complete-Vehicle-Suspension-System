@@ -9,7 +9,10 @@
   <img src="https://img.shields.io/badge/SolidWorks-%23003B6F.svg?style=for-the-badge&logo=dassaultsystemes&logoColor=white" alt="SolidWorks" />
   
   <!-- Ansys -->
-  <img src="https://img.shields.io/badge/Ansys-%23FFB71B.svg?style=for-the-badge&logo=ansys&logoColor=black" alt="Ansys" />
+  <p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/ANSYS_logo.png" alt="Ansys Logo" width="120">
+</p>
+
 </div>
 
 ---
