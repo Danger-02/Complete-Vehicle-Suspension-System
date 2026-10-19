@@ -4,8 +4,10 @@
 
 [![SolidWorks](https://img.shields.io/badge/SolidWorks-white?style=flat&logo=dassaultsystemes&logoColor=white&logoSize=auto&labelColor=%23EE0000&color=%23EE0000&cacheSeconds=3600)](https://www.solidworks.com/)
 [![Ansys](https://img.shields.io/badge/Workbench-black?style=flat&logo=ansys&logoColor=white&logoSize=auto&labelColor=black&color=black&cacheSeconds=3600)
-](https://ansys.synopsys.com/en-in))
-[![Result](https://img.shields.io/badge/BluePrint%202k24--25-2nd%20Place-gold)](#competition)
+](https://ansys.synopsys.com/en-in)
+[![Github](https://img.shields.io/badge/Github-black?style=flat&logo=github&logoColor=white&logoSize=auto&labelColor=black&color=black&cacheSeconds=3600)
+](https://github.com/)
+
 
 
 ---
