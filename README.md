@@ -63,7 +63,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 | **17** | ISO-4035-M3-N Hex Nut | 4 |
 | **18** | ISO 4762 - M3 × 20 Hex Socket Head Cap Screw | 10 |
 
-> *Full detailed component breakdown and multi-level assembly spreadsheets are available in the [`BOM/`](./BOM/) directory.*
+> *Full detailed component breakdown and multi-level assembly spreadsheets are available in the [`BOM/Bill of Materials.pdf`](./BOM/Bill of Materials.pdf) directory.*
 
 ---
 
