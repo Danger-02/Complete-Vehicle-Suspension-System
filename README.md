@@ -269,9 +269,9 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ---
 
-## Repository Structure
+## Repository Structure : 
 
-```text
+```
 Automobile-Suspension-System_Design-and-Analysis/
 ├── Ansys_Files/                # Bill of Materials (.xlsx and .pdf)
   ├── A-Arm Analysis/  
@@ -286,4 +286,15 @@ Automobile-Suspension-System_Design-and-Analysis/
 ├── CAD_Files/                  # Full assembly (.SLDASM) and all .SLDPRT files
 ├── Documentation/              # Complete Project Report (both in .docx and .pdf)
 ├── Renders/                    # # Visual 3D render image of the assembly
+```
+---
 
+## Credits : 
+
+**Author:** Chaitanya Gajbhiye  
+**Institution:** Motilal Nehru National Institute of Technology, Allahabad  
+**Department:** Department of Mechanical Engineering
+
+## License :
+
+Shared for educational and portfolio purposes.
