@@ -146,8 +146,8 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 | Parameter | Value | Parameter | Value |
 | :--- | :---: | :--- | :---: |
-| **Max Equivalent Stress** | 45.386 MPa | **Minimum Static FoS** | 5.711 |
-| **Fatigue Life** | $1 \times 10^8$ cycles | **Minimum Fatigue FoS** | 2.3223 |
+| **Max Equivalent Stress** | 45.386 MPa | **Max Total deformation** | 0.022838 mm |
+| **Minimum Static FoS** | 5.711 | **Minimum Fatigue FoS** | 2.3223 |
 
 </div>
 
