@@ -106,7 +106,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
     </td>
     <td align="center" width="50%">
       <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/03. Total Deformation.png" width="100%">
-      <p><i>Total deformation on the A-Arm (0.022838 mm max).</i></p>
+      <p><i>Total deformation on the A-Arm (0.022815 mm max).</i></p>
     </td>
   </tr>
   <tr>
@@ -125,7 +125,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 | Result | Value | Result | Value |
 | :--- | :---: | :--- | :---: |
-| **Max Equivalent (von Mises) Stress** | 45.386 MPa | **Max Total Deformation** | 0.022838 mm |
+| **Max Equivalent (von Mises) Stress** | 45.386 MPa | **Max Total Deformation** | 0.022815 mm |
 | **Minimum Static Factor of Safety** | 5.711 | **Minimum Fatigue Factor of Safety** | 2.3223 |
 
 </div>
@@ -172,9 +172,9 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 | Mode | Frequency (Hz) | Mode | Frequence (Hz) |
 | :--- | :---: | :--- | :---: |
-| 1 | 1,425.4 | 2 | 1,878.7 |
-| 3 | 2,043.8 | 4 | 2,945.1 |
-| 5 | 3,420.5 | 6 | 3,563.9 |
+| 1 | 1,426.1 | 2 | 1,879.6 |
+| 3 | 2,044.8 | 4 | 2,946.5 |
+| 5 | 3,422.2 | 6 | 3,565.6 |
 
 </div>
 
