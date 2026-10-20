@@ -7,11 +7,11 @@
 
 ---
 
-## Overview
+## Overview :
 
 This project covers the complete workflow from CAD to FEA for a vehicle suspension system. The **Complete Vehicle Suspension System** was modelled and assembled in SolidWorks. The two most heavily loaded parts, the **Lower A-Arm (Control arm)** and the **Shock Absorber Assembly**, were then taken into Ansys to check stress, deformation, factor of safety, and fatigue life under peak off-road loads. Modal analysis was also performed on the A-Arm.
 
-## Project Details
+## Project Details :
 
 - **Project Type:** Personal Project, 7th Semester B.Tech Mechanical Engineering
 - **Institute:** Motilal Nehru National Institute of Technology Allahabad, Prayagraj
@@ -21,7 +21,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ---
 
-## CAD Model (SolidWorks)
+## CAD Model (SolidWorks) :
 
 <div align="center">
   <img src="Renders/preview.PNG" alt="Complete Automobile System Assembly" width="75%">
@@ -40,7 +40,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ---
 
-## Materials Assigned
+## Materials Assigned : 
 
 | Component | Material | Density (kg/m³) | Young's Modulus (GPa) | Poisson's Ratio | Yield Strength (MPa) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -62,7 +62,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ---
 
-## FEA Setup
+## FEA Setup : 
 
 | Parameter | Shock Absorber | Lower A-Arm |
 | :--- | :--- | :--- |
@@ -84,7 +84,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ---
 
-## Results
+## Results : 
 
 ### (A) Lower A-Arm - Static Structural & Fatigue Analysis
 
@@ -195,7 +195,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ---
 
-## Conclusions
+## Conclusions : 
 
 - All peak stresses stay well below the yield strengths of the assigned materials, ensuring both components remain elastic under peak design loads.
 - Static safety factors are **5.711** (A-Arm) and **3.8597** (Shock Absorber).
@@ -246,11 +246,17 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ```text
 Automobile-Suspension-System_Design-and-Analysis/
+├── Ansys_Files/                # Bill of Materials (.xlsx and .pdf)
+  ├── A-Arm Analysis/  
+      ├── Ansys_Report/           # Ansys Exported Report and Results.
+      ├── CAD_Files/              # A-Arm CAD file (both in .SLDPRT and .STEP)
+      └──  A-Arm Analysis/        # Ansys Workbench project (both in .wbpz and .wbpj)
+  ├── Shock Absorber Analysis/  
+      ├── Ansys_Report/           # Ansys Exported Report and Results.
+      ├── CAD_Files/              # Shock Absorber CAD file (both in .SLDPRT and .STEP)
+      └──  A-Arm Analysis/        # Ansys Workbench project (both in .wbpz and .wbpj)
 ├── BOM/                        # Bill of Materials (.xlsx and .pdf)
 ├── CAD_Files/                  # Full assembly (.SLDASM) and all .SLDPRT files
-├── A-Arm_Analysis/
-│   ├── CAD/                    # A-Arm .SLDPRT and .STEP
-│   ├── Ansys_Project/          # Ansys Workbench project (.wbpj)
-│   └── Ansys_Report/           # Exported Ansys reports
-├── Shock_Absorber_Analysis/
-│   ├── CAD/                    # Shock Absorber .
+├── Documentation/              # Complete Project Report (both in .docx and .pdf)
+├── Renders/                    # sdfg
+
