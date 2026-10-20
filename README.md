@@ -212,7 +212,6 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
     </thead>
     <tbody>
       <!-- Chassis Plates & Mounts -->
-      <tr><td colspan="4" align="center"><b>Chassis Plates & Mounts</b></td></tr>
       <tr><td align="center">1</td><td>Front Side Plate R</td><td><code>.SLDPRT</code></td><td align="center">1</td></tr>
       <tr><td align="center">2</td><td>Front Side Plate L</td><td><code>.SLDPRT</code></td><td align="center">1</td></tr>
       <tr><td align="center">3</td><td>Front Upper Arm Mount</td><td><code>.SLDPRT</code></td><td align="center">1</td></tr>
