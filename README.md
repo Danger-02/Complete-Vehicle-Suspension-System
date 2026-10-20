@@ -64,7 +64,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ## FEA Setup : 
 
-| Parameter | Shock Absorber | Lower A-Arm |
+| Parameter | Shock Absorber | A-Arm |
 | :--- | :--- | :--- |
 | **Analyses** | Static Structural, Fatigue | Static Structural, Fatigue, Modal |
 | **Mesh** | Quadratic tetrahedral | Quadratic tetrahedral |
@@ -86,7 +86,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ## Results : 
 
-### (A) Lower A-Arm - Static Structural & Fatigue Analysis
+### (A) A-Arm - Static Structural & Fatigue Analysis
 
 <table align="center">
   <tr>
