@@ -54,6 +54,12 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
   <p><i>Material Assignment on A-Arm.</i></p>
 </div>
 
+<div align="center">
+  <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/01. Shock Absorber Model/02. Material Selection.png" width="70%">
+  <p><i>Material Assignment on A-Arm.</i></p>
+</div>
+
+
 ---
 
 ## FEA Setup
