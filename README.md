@@ -193,9 +193,9 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 | Mode | Frequency (Hz) | Mode | Frequence (Hz) |
 | :--- | :---: | :--- | :---: |
-| 1 | 1,425.4 | 2 | 1,650.2 |
-| 3 | 1,878.7 | 4 | 2,043.8 |
-| 5 | 2,945.1 | 6 | 3,420.5 |
+| 1 | 1,425.4 | 2 | 1,878.7 |
+| 3 | 2,043.8 | 4 | 2,945.1 |
+| 5 | 3,420.5 | 6 | 3,563.9 |
 
 </div>
 
