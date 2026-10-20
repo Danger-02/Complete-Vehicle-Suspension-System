@@ -291,9 +291,7 @@ Automobile-Suspension-System_Design-and-Analysis/
 
 ## Credits : 
 
-**Author:** Chaitanya Gajbhiye (Danger-02)    
-**Institution:** Motilal Nehru National Institute of Technology, Allahabad  
-**Department:** Department of Mechanical Engineering
+Developed and authored by Chaitanya Gajbhiye, Department of Mechanical Engineering, MNNIT Allahabad.
 
 ## License :
 
