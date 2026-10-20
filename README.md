@@ -127,7 +127,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
     </td>
     <td align="center" width="50%">
       <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/03. Total Deformation.png" width="100%">
-      <p><i>Total deformation on the Lower A-Arm (0.022823 mm max).</i></p>
+      <p><i>Total deformation on the Lower A-Arm (0.022838 mm max).</i></p>
     </td>
   </tr>
   <tr>
