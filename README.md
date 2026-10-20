@@ -72,7 +72,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 </div>
 
 <div align="center">
-  <img src="Analysis_Results/a_arm_supports_and_load.png" alt="Shock absorber boundary conditions" width="70%">
+  <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/02. Static Structural and Fatigue Analysis/01. Forces and Supports.png" width="70%">
   <p><i>Boundary conditions on the Shock Absorber.</i></p>
 </div>
 
