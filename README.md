@@ -47,7 +47,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 | A-Arm Model, Shock Body, Shock Spring Adjustment Nut, Shock Cartridge,  Spring Cup, Strut Mount Ball| Aluminium Alloy 6061-T6 | 2713 | 69.036 | 0.33 | 259.2 |
 | Helical spring | ASTM A228 Music Wire | 7850 | 203 | 0.30 | 1590 |
 | Piston rod | Low Alloy Steel 4140 (Hardened and Tempered) | 7850 | 205 | 0.29 | 655 |
-| Locking O-rings, collars | Carbon Steel 1095 (Hardened and Tempered) | 7850 | 200 | 0.29 | 525 |
+| E-Clips | Carbon Steel 1095 (Hardened and Tempered) | 7850 | 200 | 0.29 | 525 |
 
 <div align="center">
   <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/01. A-Arm Model/02. Material Selection.png" width="70%">
