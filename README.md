@@ -62,7 +62,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 | :--- | :--- | :--- |
 | **Analyses** | Static Structural, Fatigue | Static Structural, Fatigue, Modal |
 | **Mesh** | Quadratic tetrahedral | Quadratic tetrahedral |
-| **Fixed Support** | Bottom mounting eye (fixed) + cylindrical support (0 mm radial) on piston rod | Both chassis mounting hinge holes |
+| **Fixed Support** | Mounting Ball of Shock Strut | Suspension Mount, Chassis Mount|
 | **Load** | 3,000 N remote compressive force | 10,000 N remote force |
 | **Load Basis** | 4x dynamic multiplier on static corner weight, worst-case bump or jump landing | 4g - 5g impact with extra factor for combined braking and steering |
 
