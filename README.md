@@ -237,6 +237,50 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ---
 
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th align="center">ITEM NO.</th>
+        <th align="left">COMPONENT NAME</th>
+        <th align="left">FILE TYPE</th>
+        <th align="center">QTY.</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Chassis Plates & Mounts -->
+      <tr><td colspan="4" align="center"><b>Chassis Plates & Mounts</b></td></tr>
+      <tr><td align="center">1</td><td>Front Side Plate R</td><td><code>.SLDPRT</code></td><td align="center">1</td></tr>
+      <tr><td align="center">2</td><td>Front Side Plate L</td><td><code>.SLDPRT</code></td><td align="center">1</td></tr>
+      <tr><td align="center">3</td><td>Front Upper Arm Mount</td><td><code>.SLDPRT</code></td><td align="center">1</td></tr>
+      <tr><td align="center">4</td><td>Front Shock Brace</td><td><code>.SLDPRT</code></td><td align="center">1</td></tr>
+      <tr><td align="center">7</td><td>Front Lower Arm Brace</td><td><code>.SLDPRT</code></td><td align="center">1</td></tr>
+
+      <!-- Suspension Arms & Hub Carriers -->
+      <tr><td colspan="4" align="center"><b>Suspension Arms & Hub Carriers</b></td></tr>
+      <tr><td align="center">5</td><td>Assembled Front Lower Arm</td><td><code>.SLDASM</code></td><td align="center">2</td></tr>
+      <tr><td align="center">6</td><td>Assembled Front Upper Arm</td><td><code>.SLDASM</code></td><td align="center">2</td></tr>
+      <tr><td align="center">14</td><td>Assembled Front Hub Carrier L</td><td><code>.SLDASM</code></td><td align="center">1</td></tr>
+      <tr><td align="center">15</td><td>Assembled Front Hub Carrier R</td><td><code>.SLDASM</code></td><td align="center">1</td></tr>
+
+      <!-- Pins, Clips, Bushings & Dampers -->
+      <tr><td colspan="4" align="center"><b>Pins, Clips, Bushings & Dampers</b></td></tr>
+      <tr><td align="center">8</td><td>Front Lower Hinge Pin</td><td><code>.SLDPRT</code></td><td align="center">2</td></tr>
+      <tr><td align="center">9</td><td>Front Upper Hinge Pin</td><td><code>.SLDPRT</code></td><td align="center">2</td></tr>
+      <tr><td align="center">10</td><td>E-Clip</td><td><code>.SLDPRT</code></td><td align="center">8</td></tr>
+      <tr><td align="center">11</td><td>Front Suspension Adjustment Clip</td><td><code>.SLDPRT</code></td><td align="center">2</td></tr>
+      <tr><td align="center">12</td><td>Shock Bushing</td><td><code>.SLDPRT</code></td><td align="center">2</td></tr>
+      <tr><td align="center">13</td><td>Assembled Shock Absorber</td><td><code>.SLDASM</code></td><td align="center">2</td></tr>
+
+      <!-- Hardware & Fasteners -->
+      <tr><td colspan="4" align="center"><b>Hardware & Fasteners</b></td></tr>
+      <tr><td align="center">16</td><td>ANSI B18.22.1 - M5-Narrow Washer</td><td><code>.SLDPRT</code></td><td align="center">6</td></tr>
+      <tr><td align="center">17</td><td>ISO-4035-M3-N Hex Nut</td><td><code>.SLDPRT</code></td><td align="center">4</td></tr>
+      <tr><td align="center">18</td><td>ISO 4762 - M3 × 20 Hex Socket Head Cap Screw</td><td><code>.SLDPRT</code></td><td align="center">10</td></tr>
+    </tbody>
+  </table>
+</div>
+
 ## Repository Structure
 
 ```text
