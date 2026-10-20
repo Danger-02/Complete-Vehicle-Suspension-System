@@ -17,7 +17,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 - **Institute:** Motilal Nehru National Institute of Technology Allahabad, Prayagraj
 - **Duration:** August 2026 - September 2026
 - **Tools:** SolidWorks 2025, Ansys Workbench 2022 R1 (Static Structural, Modal, Fatigue Tool)
-- **Full Report:** [`Documentation/Project Report.pdf`](Documentation/Project Report.pdf)
+- [Documentation/Project Report.pdf](./Documentation/Project%20Report.pdf)
 
 ---
 
