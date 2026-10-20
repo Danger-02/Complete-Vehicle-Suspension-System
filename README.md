@@ -200,21 +200,21 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
   <tr>
     <td align="center" width="50%">
       <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/02. Static Structural and Fatigue Analysis/02. Equivalent Stress.png" width="100%">
-      <p><i>Equivalent stress on the Shock Absorber (45.386 MPa max).</i></p>
+      <p><i>Equivalent stress on the Shock Absorber (67.155 MPa max).</i></p>
     </td>
     <td align="center" width="50%">
       <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/02. Static Structural and Fatigue Analysis/04. Total Deformation.png" width="100%">
-      <p><i>Total deformation on the Shock Absorber (0.022838 mm max).</i></p>
+      <p><i>Total deformation on the Shock Absorber (7.0508 mm max).</i></p>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/02. Static Structural and Fatigue Analysis/05. Factor of Safety.png" width="100%">
-      <p><i>Static factor of safety on the Shock Absorber (5.711 min).</i></p>
+      <p><i>Static factor of safety on the Shock Absorber (3.8597 min).</i></p>
     </td>
     <td align="center" width="50%">
       <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/02. Static Structural and Fatigue Analysis/06. Fatigue Safety Factor.png" width="100%">
-      <p><i>Fatigue factor of safety on the Shock Absorber (2.3223 min).</i></p>
+      <p><i>Fatigue factor of safety on the Shock Absorber (1.9908 min).</i></p>
     </td>
   </tr>
 </table>
@@ -223,8 +223,8 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 | Result | Value | Result | Value |
 | :--- | :---: | :--- | :---: |
-| **Max Equivalent (von Mises) Stress** | 45.386 MPa | **Max Total Deformation** | 0.022838 mm |
-| **Minimum Static Factor of Safety** | 5.711 | **Minimum Fatigue Factor of Safety** | 2.3223 |
+| **Max Equivalent (von Mises) Stress** | 67.155 MPa | **Max Total Deformation** | 7.0508 mm |
+| **Minimum Static Factor of Safety** | 3.8597 | **Minimum Fatigue Factor of Safety** | 1.9908 |
 
 </div>
 
