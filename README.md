@@ -258,5 +258,5 @@ Automobile-Suspension-System_Design-and-Analysis/
 ├── BOM/                        # Bill of Materials (.xlsx and .pdf)
 ├── CAD_Files/                  # Full assembly (.SLDASM) and all .SLDPRT files
 ├── Documentation/              # Complete Project Report (both in .docx and .pdf)
-├── Renders/                    # sdfg
+├── Renders/                    # # Visual 3D render image of the assembly
 
