@@ -40,30 +40,42 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ---
 
-## Bill of Materials (BOM)
+<table>
+  <thead>
+    <tr>
+      <th align="center">Item No.</th>
+      <th align="left">Component Description / Part Name</th>
+      <th align="center">Qty.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="3"><b>Chassis Plates & Mounts</b></td></tr>
+    <tr><td align="center">1</td><td>Front Side Plate R</td><td align="center">1</td></tr>
+    <tr><td align="center">2</td><td>Front Side Plate L</td><td align="center">1</td></tr>
+    <tr><td align="center">3</td><td>Front Upper Arm Mount</td><td align="center">1</td></tr>
+    <tr><td align="center">4</td><td>Front Shock Brace</td><td align="center">1</td></tr>
+    <tr><td align="center">7</td><td>Front Lower Arm Brace</td><td align="center">1</td></tr>
+    
+    <tr><td colspan="3"><b>Suspension Arms & Hub Carriers</b></td></tr>
+    <tr><td align="center">5</td><td>Assembled Front Lower Arm</td><td align="center">2</td></tr>
+    <tr><td align="center">6</td><td>Assembled Front Upper Arm</td><td align="center">2</td></tr>
+    <tr><td align="center">14</td><td>Assembled Front Hub Carrier L</td><td align="center">1</td></tr>
+    <tr><td align="center">15</td><td>Assembled Front Hub Carrier R</td><td align="center">1</td></tr>
 
-| Item No. | Component Description / Part Name | Qty. |
-| :---: | :--- | :---: |
-| **1** | Front Side Plate R | 1 |
-| **2** | Front Side Plate L | 1 |
-| **3** | Front Upper Arm Mount | 1 |
-| **4** | Front Shock Brace | 1 |
-| **5** | Assembled Front Lower Arm | 2 |
-| **6** | Assembled Front Upper Arm | 2 |
-| **7** | Front Lower Arm Brace | 1 |
-| **8** | Front Lower Hinge Pin | 2 |
-| **9** | Front Upper Hinge Pin | 2 |
-| **10** | E-Clip | 8 |
-| **11** | Front Suspension Adjustment Clip | 2 |
-| **12** | Shock Bushing| 2 |
-| **13** | Assembled Shock Absorber | 2 |
-| **14** | Assembled Front Hub Carrier L | 1 |
-| **15** | Assembled Front Hub Carrier R | 1 |
-| **16** | ANSI B18.22.1 - M5-Narrow Washer| 6 |
-| **17** | ISO-4035-M3-N Hex Nut | 4 |
-| **18** | ISO 4762 - M3 × 20 Hex Socket Head Cap Screw | 10 |
+    <tr><td colspan="3"><b>Pins, Clips, Bushings & Dampers</b></td></tr>
+    <tr><td align="center">8</td><td>Front Lower Hinge Pin</td><td align="center">2</td></tr>
+    <tr><td align="center">9</td><td>Front Upper Hinge Pin</td><td align="center">2</td></tr>
+    <tr><td align="center">10</td><td>E-Clip</td><td align="center">8</td></tr>
+    <tr><td align="center">11</td><td>Front Suspension Adjustment Clip</td><td align="center">2</td></tr>
+    <tr><td align="center">12</td><td>Shock Bushing</td><td align="center">2</td></tr>
+    <tr><td align="center">13</td><td>Assembled Shock Absorber</td><td align="center">2</td></tr>
 
-> *Full detailed component breakdown and multi-level assembly spreadsheets are available in the [BOM/Bill of Materials.pdf](./BOM/Bill%20of%20Materials.pdf) file.*
+    <tr><td colspan="3"><b>Hardware & Fasteners</b></td></tr>
+    <tr><td align="center">16</td><td>ANSI B18.22.1 - M5-Narrow Washer</td><td align="center">6</td></tr>
+    <tr><td align="center">17</td><td>ISO-4035-M3-N Hex Nut</td><td align="center">4</td></tr>
+    <tr><td align="center">18</td><td>ISO 4762 - M3 × 20 Hex Socket Head Cap Screw</td><td align="center">10</td></tr>
+  </tbody>
+</table>
 
 ---
 
