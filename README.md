@@ -123,10 +123,10 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 <div align="center">
 
-| Parameter | Value | Parameter | Value |
+| Result | Value | Result | Value |
 | :--- | :---: | :--- | :---: |
-| **Max Equivalent Stress** | 45.386 MPa | **Max Total deformation** | 0.022838 mm |
-| **Minimum Static FoS** | 5.711 | **Minimum Fatigue FoS** | 2.3223 |
+| **Max Equivalent (von Mises) Stress** | 45.386 MPa | **Max Total Deformation** | 0.022838 mm |
+| **Minimum Static Factor of Safety** | 5.711 | **Minimum Fatigue Factor of Safety** | 2.3223 |
 
 </div>
 
@@ -221,22 +221,14 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 <div align="center">
 
-| Parameter | Value | Parameter | Value |
+| Result | Value | Result | Value |
 | :--- | :---: | :--- | :---: |
-| **Max Equivalent Stress** | 45.386 MPa | **Max Total deformation** | 0.022838 mm |
-| **Minimum Static FoS** | 5.711 | **Minimum Fatigue FoS** | 2.3223 |
+| **Max Equivalent (von Mises) Stress** | 45.386 MPa | **Max Total Deformation** | 0.022838 mm |
+| **Minimum Static Factor of Safety** | 5.711 | **Minimum Fatigue Factor of Safety** | 2.3223 |
 
 </div>
 
 > *Note: All peak stresses stay well below the yield strengths of the assigned materials, ensuring both components remain safe under peak design loads.*
----
-| Result | Value |
-| :--- | :---: |
-| **Max Equivalent (von Mises) Stress** | 67.155 MPa |
-| **Max Total Deformation** | 7.0508 mm |
-| **Minimum Static Factor of Safety** | 3.8597 |
-| **Minimum Fatigue Factor of Safety** | 1.921 |
-
 ---
 
 ## Bill of Material (BOM) :
