@@ -44,8 +44,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 | Component | Material | Density (kg/m³) | Young's Modulus (GPa) | Poisson's Ratio | Yield Strength (MPa) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| A-Arm Model| Aluminium Alloy 6061-T6 | 2713 | 69.036 | 0.33 | 259.2 |
-| Shock Body, Shock Spring Adjustment Nut, Shock Cartridge,  Spring Cup, Strut Mount Ball| Aluminium Alloy 6061-T6 | 2713 | 69.036 | 0.33 | 259.2 |
+| A-Arm Model, Shock Body, Shock Spring Adjustment Nut, Shock Cartridge,  Spring Cup, Strut Mount Ball| Aluminium Alloy 6061-T6 | 2713 | 69.036 | 0.33 | 259.2 |
 | Helical spring | ASTM A228 Music Wire | 7850 | 203 | 0.30 | 1590 |
 | Piston rod, structural shafts | Low Alloy Steel 4140 (Hardened and Tempered) | 7850 | 205 | 0.29 | 655 |
 | Locking rings, collars | Carbon Steel 1095 (Hardened and Tempered) | 7850 | 200 | 0.29 | 525 |
