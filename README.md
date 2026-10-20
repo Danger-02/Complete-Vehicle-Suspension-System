@@ -184,8 +184,52 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 ---
 
-### (C) Shock Absorber - Static Structural & Fatigue Analysis
+### (C) Shock Absorber - Static Structural & Fatigue Analysis 
 
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/01. Shock Absorber Model/02. Material Selection.png" width="100%">
+      <p><i>Shock Absorber Material Selection.</i></p>
+    </td>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/01. Shock Absorber Model/03. Meshing.png" width="100%">
+      <p><i>Shock Absorber Meshing.</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/02. Static Structural and Fatigue Analysis/02. Equivalent Stress.png" width="100%">
+      <p><i>Equivalent stress on the Shock Absorber (45.386 MPa max).</i></p>
+    </td>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/02. Static Structural and Fatigue Analysis/04. Total Deformation.png" width="100%">
+      <p><i>Total deformation on the Shock Absorber (0.022838 mm max).</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/02. Static Structural and Fatigue Analysis/05. Factor of Safety.png" width="100%">
+      <p><i>Static factor of safety on the Shock Absorber (5.711 min).</i></p>
+    </td>
+    <td align="center" width="50%">
+      <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/02. Static Structural and Fatigue Analysis/06. Fatigue Safety Factor.png" width="100%">
+      <p><i>Fatigue factor of safety on the Shock Absorber (2.3223 min).</i></p>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+
+| Parameter | Value | Parameter | Value |
+| :--- | :---: | :--- | :---: |
+| **Max Equivalent Stress** | 45.386 MPa | **Max Total deformation** | 0.022838 mm |
+| **Minimum Static FoS** | 5.711 | **Minimum Fatigue FoS** | 2.3223 |
+
+</div>
+
+> *Note: All peak stresses stay well below the yield strengths of the assigned materials, ensuring both components remain safe under peak design loads.*
+---
 | Result | Value |
 | :--- | :---: |
 | **Max Equivalent (von Mises) Stress** | 67.155 MPa |
