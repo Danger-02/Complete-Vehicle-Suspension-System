@@ -159,31 +159,31 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 <table align="center">
   <tr>
     <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 01.png" width="100%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 02.png" width="100%">
       <p><i>Mode Shape 1</i></p>
     </td>
     <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 02.png" width="100%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 03.png" width="100%">
       <p><i>Mode Shape 2</i></p>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 03.png" width="100%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 04.png" width="100%">
       <p><i>Mode Shape 3</i></p>
     </td>
     <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 04.png" width="100%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 05.png" width="100%">
       <p><i>Mode Shape 4</i></p>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 05.png" width="100%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 06.png" width="100%">
       <p><i>Mode Shape 5</i></p>
     </td>
     <td align="center" width="50%">
-      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 06.png" width="100%">
+      <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/03. Modal Analysis/Total Deformation 07.png" width="100%">
       <p><i>Mode Shape 6</i></p>
     </td>
   </tr>
