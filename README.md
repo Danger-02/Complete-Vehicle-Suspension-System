@@ -9,7 +9,7 @@
 
 ## Overview :
 
-This project covers the complete workflow from CAD to FEA for a vehicle suspension system. The **Complete Vehicle Suspension System** was modelled and assembled in SolidWorks. The two most heavily loaded parts, the **Lower A-Arm (Control arm)** and the **Shock Absorber Assembly**, were then taken into Ansys to check stress, deformation, factor of safety, and fatigue life under peak off-road loads. Modal analysis was also performed on the A-Arm.
+This project covers the complete workflow from CAD to FEA for a vehicle suspension system. The **Complete Vehicle Suspension System** was modelled and assembled in SolidWorks. The two most heavily loaded parts, the **A-Arm (Control arm)** and the **Shock Absorber Assembly**, were then taken into Ansys to check stress, deformation, factor of safety, and fatigue life under peak off-road loads. Modal analysis was also performed on the A-Arm.
 
 ## Project Details :
 
@@ -30,7 +30,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 <div align="center">
   <img src="Renders/preview2.PNG" alt="Lower A-Arm Part" width="60%">
-  <p><i>Lower A-Arm (Control Arm).</i></p>
+  <p><i> A-Arm (Control Arm).</i></p>
 </div>
 
 <div align="center">
@@ -56,7 +56,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 <div align="center">
   <img src="Ansys_Files/Shock Absorber Analysis/Ansys Report/Results/01. Shock Absorber Model/02. Material Selection.png" width="70%">
-  <p><i>Material Assignment on A-Arm.</i></p>
+  <p><i>Material Assignment on Shock Absorber.</i></p>
 </div>
 
 
@@ -74,7 +74,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 
 <div align="center">
   <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/01. Forces and Supports.png" width="70%">
-  <p><i>Boundary conditions on the Lower A-Arm.</i></p>
+  <p><i>Boundary conditions on the A-Arm.</i></p>
 </div>
 
 <div align="center">
@@ -102,21 +102,21 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
   <tr>
     <td align="center" width="50%">
       <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/02. Equivalent Stress.png" width="100%">
-      <p><i>Equivalent stress on the Lower A-Arm (45.386 MPa max).</i></p>
+      <p><i>Equivalent stress on the A-Arm (45.386 MPa max).</i></p>
     </td>
     <td align="center" width="50%">
       <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/03. Total Deformation.png" width="100%">
-      <p><i>Total deformation on the Lower A-Arm (0.022838 mm max).</i></p>
+      <p><i>Total deformation on the A-Arm (0.022838 mm max).</i></p>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/04. Factor of Safety.png" width="100%">
-      <p><i>Static factor of safety on the Lower A-Arm (5.711 min).</i></p>
+      <p><i>Static factor of safety on the A-Arm (5.711 min).</i></p>
     </td>
     <td align="center" width="50%">
       <img src="Ansys_Files/A-Arm Analysis/Ansys_Report/Results/02. Static Structural and Fatigue Analysis/07. Fatigue Safety Factor.png" width="100%">
-      <p><i>Fatigue factor of safety on the Lower A-Arm (2.3223 min).</i></p>
+      <p><i>Fatigue factor of safety on the A-Arm (2.3223 min).</i></p>
     </td>
   </tr>
 </table>
@@ -133,7 +133,7 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 > *Note: All peak stresses stay well below the yield strengths of the assigned materials, ensuring both components remain safe under peak design loads.*
 ---
 
-### (B) Lower A-Arm - Modal Analysis
+### (B) A-Arm - Modal Analysis
 
 <table align="center">
   <tr>
@@ -192,15 +192,6 @@ This project covers the complete workflow from CAD to FEA for a vehicle suspensi
 | **Max Total Deformation** | 7.0508 mm |
 | **Minimum Static Factor of Safety** | 3.8597 |
 | **Minimum Fatigue Factor of Safety** | 1.921 |
-
----
-
-## Conclusions : 
-
-- All peak stresses stay well below the yield strengths of the assigned materials, ensuring both components remain elastic under peak design loads.
-- Static safety factors are **5.711** (A-Arm) and **3.8597** (Shock Absorber).
-- Fatigue lives reach $10^7 - 10^8$ cycles with fatigue safety factors comfortably above 1.9.
-- The A-Arm's lowest natural frequency (**1,425.4 Hz**) is far above normal off-road input frequencies, preventing resonance failures.
 
 ---
 
